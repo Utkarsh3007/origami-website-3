@@ -1,0 +1,93 @@
+/* whole navbar */
+.navbar{
+    display: flex; 
+    justify-content: space-between;
+    background-color: #242323;
+    padding:1px;
+}
+/* about us */
+.nav{
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    text-decoration: none;
+} 
+/* heading */
+.navh{
+    color: white;
+    padding: 7px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+/* menu */
+.navm{
+    color: white;
+    padding: 5px;
+    font-size: 31px;
+} 
+body{
+    margin: 0px;
+    background-color: #caff75;
+    
+}
+/* link editing   */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: rgb(164, 179, 179); 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+.body1{
+     justify-content: space-between;  
+    /* display: flex; */
+}
+.centered{
+    position: absolute;
+    top: 46%;
+    left: 10%;
+    right: 10%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Orelega One', cursive;
+}
+.top-right{
+    position: absolute;
+    top: 25%;
+    right: auto;
+    left: 26%;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family:  Helvetica;
+    font-family: 'Orelega One', cursive;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid img{
+    border: 1.5px solid black;
+    border-radius: 50px;
+    height: 250px;
+    width: 250px;
+    margin-top: 8px;
+    padding: 8px;
+}
+.origami{
+    border:2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+    font-family: fantasy;
+    margin-left: 82px;
+    margin-top: 48px; 
+    
+}
+li{
+    padding: 3px;
+    margin-right: 2px;
+}
